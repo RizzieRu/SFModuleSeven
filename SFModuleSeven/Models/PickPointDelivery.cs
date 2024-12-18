@@ -8,6 +8,9 @@ namespace SFModuleSeven.Models
 {
     internal class PickPointDelivery : DeliveryBase
     {
-
+        public PickPointDelivery(string address)
+        {
+            Address = address;
+        }
     }
 }

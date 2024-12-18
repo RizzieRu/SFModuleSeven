@@ -8,6 +8,9 @@ namespace SFModuleSeven.Models
 {
     internal class ShopDelivery : DeliveryBase
     {
-
+        public ShopDelivery(string address)
+        {
+            Address = address;
+        }
     }
 }
